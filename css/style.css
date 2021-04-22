@@ -111,8 +111,7 @@ O Position não serve para diagramar a estrutura de layouts. Para isso, você ut
 
 .banner3{
 	background: url('../img/banner3.jpg'); 
-	height: 450px;
-	background-size: 1128px;
+	height: 1000px;
 	margin-bottom: 48px;
 	position: relative;
 }
@@ -145,6 +144,26 @@ h1{
 	width: 480px;
 }
 
+.caixa2{
+	position: absolute;
+	top:48px;
+	background-color: rgba(0,0,0,0.6); /* RGBA (Red-Green-Blue-Alpha) alpha 1 é opaco e 0 é transparente*/
+	padding:24px 14px 24px 40px; /* top right bottom left */
+}
+
+h2{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.caixa2 p {
+	font-size: 18px;
+	color: #fff;
+	width: 480px;
+}
+
 .coluna{
 	width: 264px;
 	margin-right: 24px;
@@ -153,6 +172,17 @@ h1{
 
 .coluna:last-child{
 	margin-right: 0;
+}
+
+.section2{
+	max-width: 100%;
+	display: center;
+}
+
+.coluna2{
+	width: 600px;
+	margin-left: 24px;
+	margin:auto;
 }
 
 .informativo{
